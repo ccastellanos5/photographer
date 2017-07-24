@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAI;EACF,UAAU,ECEG,OAAO;;ADAtB,OAAO;EACL,KAAK,ECJE,OAAO",
+"sources": ["_basic.sass","_variables.sass"],
+"names": [],
+"file": "mainc.css"
+}

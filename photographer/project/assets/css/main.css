@@ -1,0 +1,98 @@
+nav {
+  background-color: #796465 !important;
+  font-family: "Lobster", cursive;
+  font-size: 40px !important; }
+
+.main-section {
+  min-height: 100vh;
+  padding-bottom: 100px; }
+
+.title {
+  font-family: "Lobster", cursive; }
+
+.citas {
+  font-family: "Satisfy", cursive;
+  font-size: 15px; }
+
+.verde {
+  background: #DDE8B9; }
+
+.rosa {
+  background-color: #E8D2AE; }
+
+.rest-text {
+  font-family: "Neuton", serif; }
+
+.card {
+  max-height: 299px; }
+
+.size {
+  max-height: px; }
+
+.about {
+  border-radius: 5%; }
+
+.text-rosa {
+  color: #CB8589; }
+
+.menu-portafolio {
+  clear: both;
+  float: left;
+  overflow: hidden;
+  width: 100%;
+  padding: 50px; }
+
+#menu {
+  float: left;
+  left: 50%;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  position: relative; }
+
+#menu li {
+  float: left;
+  position: relative;
+  right: 50%;
+  color: #796465; }
+  #menu li:hover {
+    color: #CB8589; }
+
+button {
+  background-color: #796465 !important; }
+
+.input-field label {
+  color: #796465; }
+
+.input-field input[type=text]:focus + label {
+  color: #796465; }
+
+.input-field .prefix.active {
+  color: #796465; }
+
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #796465;
+  box-shadow: 0 1px 0 0 #796465; }
+
+footer {
+  background-color: #796465 !important; }
+
+.morado {
+  color: #796465; }
+
+.map {
+  width: 100%;
+  height: 150px;
+  border: 0;
+  border-radius: 5%; }
+
+.img-rest {
+  height: 114.5px !important;
+  width: 90% !important; }
+
+.card-image {
+  max-height: 205px !important; }
+  .card-image .carousel-item img {
+    max-height: 205px; }
+
+/*# sourceMappingURL=main.css.map */

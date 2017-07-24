@@ -1,0 +1,323 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Professional photographer | Alice Butler </title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="{% static 'css/materialize.min.css' %}"  media="screen,projection"/>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Neuton|Satisfy" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script src="https://use.fontawesome.com/f86681a73c.js"></script>
+  </head>
+  <body>
+    <!--INICIO NAVBAR-->
+    <nav class="z-depth-0">
+      <div class="nav-wrapper container">
+        <a href="#" class="brand-logo"><i class="material-icons">photo_camera</i> Alice Butler</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#portafolio">Portafolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#portafolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- FIN NAVBAR-->
+    <!-- INICIO HOME -->
+    <div class="main-section verde lighten-1" id="home">
+      <div class="container">
+        <div class="row">
+          <div class="col l6">
+            <div class="row">
+              <div class="col l12 m12 s12">
+                <h2 class="center-align title">Welcome</h2>
+              </div>
+              <div class="row">
+                <div class="col l8 m8 s12">
+                  <img class="responsive-img img-one z-depth-3" id="img-one" src="{% static 'img/imagen2.jpg' %}" alt="">
+                </div>
+                <div class="col l4 m4 hide-on-small-only">
+                  <div class="row">
+                    <div class="col l12 ">
+                      <img class="responsive-img img-rest z-depth-3" src="{% static 'img/imagen3.jpg' %}" alt="">
+                    </div>
+                    <div class="col l12">
+                      <img class="responsive-img img-rest z-depth-3" src="{% static 'img/imagen5.jpg' %}" alt="">
+                    </div>
+                    <div class="col l12">
+                      <img class="responsive-img img-rest z-depth-3" src="{% static 'img/imagen1.jpg' %}" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <br>
+          <div class="col l6 m12 s12">
+            <div class="row">
+              <div class="col l3 m3">
+                <img src="{% static 'img/wedding.jpg' %}" class="responsive-img circle z-depth-3" alt="">
+              </div>
+              <div class="col l9 m9">
+                <p class="left-align citas"> "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui et debitis mollitia quisquam vel illo ullam explicabo quos. Neque est, quaerat ut, magni deserunt quod quia possimus sint iure itaque!"<br>
+                  <strong>- Dave and Dine</strong>
+                </p>
+              </div>
+
+              <div class="row hide-on-small-only">
+                <div class="col l9 m9">
+                  <p class="right-align citas"> <br> "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui et debitis mollitia quisquam vel illo ullam explicabo quos. Neque est, quaerat ut, magni deserunt quod quia possimus sint iure itaque!"<br>
+                    <strong>- Rose Smith</strong>
+                  </p>
+                </div>
+                <div class="col l3 m3">
+                  <img src="{% static 'img/graduation.jpg' %}" class="responsive-img circle z-depth-3" alt="">
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col l3 m3">
+                  <img src="{% static 'img/baby.jpg' %}" class="responsive-img circle z-depth-3" alt="">
+                </div>
+                <div class="col l9 m9">
+                  <p class="left-align citas"> "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui et debitis mollitia quisquam vel illo ullam explicabo quos. Neque est, quaerat ut, magni deserunt quod quia possimus sint iure itaque!"<br>
+                    <strong>- Liz Jhonson (Baby's mother)</strong>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+    <!-- FIN HOME -->
+
+    <!-- INICIO ABOUTME -->
+    <div class="main-section white lighten-1" id="about">
+      <div class="container">
+        <br>
+        <h2 class="header center-align title">About me</h2>
+        <div class="row">
+          <div class="col l6 m6 s12">
+            <img src="{% static 'img/women.jpg' %}" class="responsive-img about" alt="">
+            <h3 class="center-align title text-rosa"> Alice Butler</h3>
+          </div>
+          <div class="col l6 m6 s12 rosa rest-text about">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FIN ABOUTME -->
+
+    <!-- INICIO PORTAFOLIO -->
+    <div class="main-section lighten-1 verde" id="portafolio">
+      <div class="container">
+        <div class="row">
+          <div class="col l6">
+            <h2 class="left-align title">Portafolio</h2>
+          </div>
+          <div class="col l6">
+            <div class="menu-portafolio">
+              <ul class="right-align title" id="menu">
+                <li class="link active" data-filter="all">All / </li>
+                <li class="link" data-filter="weddings">Weddings / </li>
+                <li class="link" data-filter="babys">Babys / </li>
+                <li class="link" data-filter="family">Family / </li>
+                <li class="link" data-filter="graduation">Graduations / </li>
+                <li class="link" data-filter="sesion">Session  </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row portafolio">
+            {% for x in album %}
+              <div class="col l4 m4 s12">
+                <div class="card portfolio-card filter {{x.category}}">
+                  <div class="card-image">
+                    <div class="carousel carousel-slider center" data-indicators="true">
+                      {% for img in x.images.all %}
+                        <div class="carousel-item" href="#one!">
+                          <img src="{{img.url}}">
+                        </div>
+                      {% endfor %}
+                    </div>
+                  </div>
+                  <div class="card-content">
+                    <h5 class="title center-align">{{x.name}}</h5>
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+            <div class="cleafix">
+
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- FIN PORTAFOLIO -->
+
+    <!-- INICIO CONTACT -->
+    <div class="main-section lighten-1" id="contact">
+      <div class="container">
+        <br>
+        <h2 class="title center-align">Contact</h2>
+        <div class="row">
+          <div class="col l6">
+           <form action="">
+            <div class="input-field">
+              <i class="material-icons prefix">account_circle</i>
+              <input id="name" type="text" class="validate">
+              <label for="name" data-error="wrong" data-success="right">What is yout name?</label>
+            </div>
+            <div class="input-field">
+              <i class="material-icons prefix">email</i>
+              <input id="email" type="email" class="validate">
+              <label for="email" data-error="wrong" data-success="right">Email</label>
+            </div>
+            <div class="row">
+              <div class="col l6">
+                <div class="input-field">
+                  <i class="material-icons prefix">date_range</i>
+                  <label for="date">Date of Event:</label>
+                  <input type="date" class="datepicker">
+                </div>
+              </div>
+              <div class="col l6">
+                <div class="input-field">
+                  <i class="material-icons prefix">alarm</i>
+                  <input type="text" class="timepicker">
+                  <label for="time">Hour of Event:</label>
+                </div>
+              </div>
+            </div>
+            <div class="input-field">
+              <i class="material-icons prefix">mode_edit</i>
+              <textarea id="textarea1" class="materialize-textarea"></textarea>
+              <label for="message">Message:</label>
+            </div>
+            <div class="center-align">
+              <button class="btn waves-effect waves-light" type="submit" name="action">Send
+                <i class="material-icons right">send</i>
+              </button>
+            </div>
+           </form>
+        </div>
+        <br>
+        <div class="col l6">
+          <div class="row">
+            <div class="col l4 offset-l4 s4 offset-s4">
+              <img class="responsive-img circle" src="{% static 'img/photographer.jpg' %}" alt="">
+            </div>
+          </div>
+          <br>
+          <div class="center morado">
+            <span class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="alicebutler@gmail.com"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i></span>&nbsp
+            <span class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="alicebutle"><i class="fa fa-google-plus fa-3x" aria-hidden="true"></i></span>&nbsp
+            <span class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Alice Butler"><i class="fa fa-youtube-play fa-3x" aria-hidden="true"></i></span>&nbsp
+            <span class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="AliceButler"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></span>&nbsp
+            <span class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Alice Butler"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></span>&nbsp
+            <span class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="alicebutler"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></span>&nbsp
+            <span class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="alicebutler"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></span>&nbsp
+          </div>
+          <br>
+          <div class="row">
+            <div class=" center col l12">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62815.08593468845!2d-68.05549712842571!3d10.266186981818967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e805c5adca7bc33%3A0x50229899f4ea4de9!2sNaguanagua%2C+Carabobo!5e0!3m2!1ses-419!2sve!4v1469746286144" class="map" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <footer class="page-footer">
+      <div class="footer-copyright">
+        <div class="container center-align">
+          © 2017 Alice Butler
+        </div>
+      </div>
+    </footer>
+    <!-- FIN CONTACT -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="{% static 'js/materialize.min.js' %}"></script>
+    <script type="text/javascript">
+      $(".button-collapse").sideNav();
+      $(document).ready(function(){
+        $('.carousel.carousel-slider').carousel({fullWidth: true});
+        $('.carousel.carousel-slider').each(function() { // SOLUCIONA ERROR DE SLIDER CON IMAGENES LOCALES, NO TOCAR jajajajaja
+          var view = $(this);
+          var firstImage = view.find('.carousel-item img').first();
+          var imageHeight = firstImage[0].naturalHeight;
+          if (imageHeight > 0) {
+            view.css('height', imageHeight / firstImage[0].naturalWidth * view.width());
+          } else {
+            view.css('height', 100);
+          }
+        });
+
+        $(".link").click(function(){
+          var value = $(this).attr("data-filter");
+          if(value == "all")
+          {
+            $(".filter").show("1000");
+          }
+          else
+          {
+            $(".filter").not("."+value).hide("1000");
+            $(".filter").filter("."+value).show("1000");
+          }
+
+          $("ul .link").click(function(){
+            $(this).addClass("active");
+          })
+        })
+
+      });
+
+
+      $('.datepicker').pickadate({
+        selectMonths: true, // Creates a dropdown to control month
+        selectYears: 15 // Creates a dropdown of 15 years to control year
+      });
+
+      // $('.timepicker').pickatime({
+      //   default: 'now', // Set default time
+      //   fromnow: 0,       // set default time to * milliseconds from now (using with default = 'now')
+      //   twelvehour: false, // Use AM/PM or 24-hour format
+      //   donetext: 'OK', // text for done-button
+      //   cleartext: 'Clear', // text for clear-button
+      //   canceltext: 'Cancel', // Text for cancel-button
+      //   autoclose: false, // automatic close timepicker
+      //   ampmclickable: true, // make AM PM clickable
+      //   aftershow: function(){} //Function for after opening timepicker
+      // });
+
+      //ESTO SIRVIO PARA QUITARLE UNA CLASE CUANDO LA PANTALLA CAMBIABA DE TAMAÑO
+      // $(window).on('resize', function() {
+      //   var imgOne = document.getElementById('img-one');
+      //     if($(window).width() < 800) {
+      //       imgOne.className = "responsive-img z-depth-5";
+      //     }
+      //     else {
+      //       imgOne.className = "responsive-img img-one z-depth-5";
+      //     }
+      // });
+
+    </script>
+  </body>
+</html>
